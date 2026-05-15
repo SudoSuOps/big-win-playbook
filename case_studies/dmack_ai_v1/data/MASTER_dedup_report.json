@@ -1,0 +1,79 @@
+{
+  "master_output": "/home/swarm/Desktop/dmack-ai/corpus/MASTER_dmack_ai_v1_royal_jelly.jsonl",
+  "total_pairs_in": 78985,
+  "total_pairs_kept": 77797,
+  "total_pairs_dropped": 1188,
+  "dropped_pct": 1.5,
+  "per_source": {
+    "refusal-hand-curated": {
+      "in": 128,
+      "kept": 128,
+      "dropped": 0
+    },
+    "cgmacros-real-data": {
+      "in": 4314,
+      "kept": 4314,
+      "dropped": 0
+    },
+    "bigideas-real-data": {
+      "in": 1592,
+      "kept": 1592,
+      "dropped": 0
+    },
+    "pmc-fulltext": {
+      "in": 11169,
+      "kept": 11169,
+      "dropped": 0
+    },
+    "international-public-health": {
+      "in": 5632,
+      "kept": 5316,
+      "dropped": 316,
+      "intra-source-pair-id": 316
+    },
+    "government-public-domain": {
+      "in": 4328,
+      "kept": 3462,
+      "dropped": 866,
+      "intra-source-pair-id": 866
+    },
+    "openalex-r1": {
+      "in": 11064,
+      "kept": 11064,
+      "dropped": 0
+    },
+    "openalex-r2": {
+      "in": 7538,
+      "kept": 7536,
+      "dropped": 2,
+      "doi": 2
+    },
+    "openalex-r3": {
+      "in": 11368,
+      "kept": 11368,
+      "dropped": 0
+    },
+    "openalex-r4": {
+      "in": 9332,
+      "kept": 9328,
+      "dropped": 4,
+      "doi": 4
+    },
+    "openalex-r5": {
+      "in": 12520,
+      "kept": 12520,
+      "dropped": 0
+    }
+  },
+  "cross_source_overlap": {
+    "openalex-r2": {
+      "pmc-fulltext": 2
+    },
+    "openalex-r4": {
+      "pmc-fulltext": 4
+    }
+  },
+  "unique_dois_seen": 29163,
+  "unique_pmcids_seen": 3256,
+  "unique_url_sections_seen": 3060
+}

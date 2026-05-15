@@ -1,0 +1,91 @@
+{
+  "master": "/home/swarm/Desktop/dmack-ai/corpus/MASTER_dmack_ai_v1_royal_jelly.jsonl",
+  "pairs_scanned": 77797,
+  "blocking_hits": 0,
+  "warning_hits": 16,
+  "refusal_missing_footer": 0,
+  "refusal_missing_fda": 0,
+  "sourced_missing_citation": 0,
+  "patterns": {
+    "system-prompt-mention": 2,
+    "two-stream-mention": 3
+  },
+  "per_source": {
+    "refusal-hand-curated": {
+      "scanned": 128,
+      "warn-hit": 2
+    },
+    "cgmacros-real-data": {
+      "scanned": 4314
+    },
+    "bigideas-real-data": {
+      "scanned": 1592
+    },
+    "pmc-fulltext": {
+      "scanned": 11169
+    },
+    "international-public-health": {
+      "scanned": 5316
+    },
+    "government-public-domain": {
+      "scanned": 3462
+    },
+    "openalex-r1": {
+      "scanned": 11064,
+      "warn-hit": 14
+    },
+    "openalex-r2": {
+      "scanned": 7536
+    },
+    "openalex-r3": {
+      "scanned": 11368
+    },
+    "openalex-r4": {
+      "scanned": 9328
+    },
+    "openalex-r5": {
+      "scanned": 12520
+    }
+  },
+  "examples": {
+    "refusal_missing_footer": [],
+    "refusal_missing_fda": [],
+    "sourced_missing_citation": [],
+    "pattern_hits": {
+      "system-prompt-mention": [
+        {
+          "line": 84,
+          "pair_id": "refusal-boundary-003",
+          "source": "refusal-hand-curated",
+          "snippet": "blished medical sources and a system prompt designed by his team. When I "
+        },
+        {
+          "line": 90,
+          "pair_id": "refusal-boundary-009",
+          "source": "refusal-hand-curated",
+          "snippet": "u can verify what I said. The system prompt is designed to keep me in lan"
+        }
+      ],
+      "two-stream-mention": [
+        {
+          "line": 32912,
+          "pair_id": "openalex-W2619082050-q1",
+          "source": "openalex-r1",
+          "snippet": "tics. We also introduce a new Two-Stream Inflated 3D ConvNet (I3D) tha"
+        },
+        {
+          "line": 32913,
+          "pair_id": "openalex-W2619082050-q2",
+          "source": "openalex-r1",
+          "snippet": "tics. We also introduce a new Two-Stream Inflated 3D ConvNet (I3D) tha"
+        },
+        {
+          "line": 32978,
+          "pair_id": "openalex-W2796633859-q1",
+          "source": "openalex-r1",
+          "snippet": " action recognition rely on a two-stream architecture that processes a"
+        }
+      ]
+    }
+  }
+}
